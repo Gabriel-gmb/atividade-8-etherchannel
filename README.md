@@ -56,14 +56,3 @@ show etherchannel summary
 show interfaces trunk
 show running-config
 ```
-
-## Arquivos e evidências
-
-- `atividade-8-etherchannel.pkt`: arquivo da atividade no Cisco Packet Tracer.
-- Adicione nesta pasta as capturas de tela dos comandos de validação, identificando os switches.
-
-## Resultado
-
-**Validação dos EtherChannels e trunks apresentados: aprovada.** Os canais estão em uso, utilizando LACP, e os membros físicos exibidos estão agregados. As trunks dos port-channels transportam as VLANs 10 e 20.
-
-A validação completa da topologia e da conectividade entre dispositivos finais depende também da conferência do arquivo Packet Tracer e de testes adicionais, como pings entre dispositivos nas VLANs correspondentes.
